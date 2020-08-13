@@ -13,5 +13,5 @@ if __name__ == "__main__":
     user = input("Enter the user accountname: \t")
     crawl.get_specific_user_timeline(user)
     search_crawl = SearchCrawler()
-    user = input("Enter the search string : \t")
-    search_crawl.search_on_twitter("corona")
+    query = input("Enter the search string : \t")
+    search_crawl.search_on_twitter(query)
